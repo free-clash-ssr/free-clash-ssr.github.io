@@ -1,4 +1,4 @@
-# Free Clash SSR - 5月4日20.9M/S|免费Clash/Shadowrocket/V2ray/SSR订阅节点分享  更新时间 2025-05-04 14:35:11
+# Free Clash SSR - 5月8日19.3M/S|免费SSR/V2ray/Clash/Shadowrocket订阅节点分享  更新时间 2025-05-08 10:53:14
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://free-clash-ssr.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://free-clash-ssr.github.io/uploads/2025/05/0-20250504.yaml
-- https://free-clash-ssr.github.io/uploads/2025/05/1-20250504.yaml
-- https://free-clash-ssr.github.io/uploads/2025/05/2-20250504.yaml
-- https://free-clash-ssr.github.io/uploads/2025/05/3-20250504.yaml
-- https://free-clash-ssr.github.io/uploads/2025/05/4-20250504.yaml
+- https://free-clash-ssr.github.io/uploads/2025/05/0-20250508.yaml
+- https://free-clash-ssr.github.io/uploads/2025/05/1-20250508.yaml
+- https://free-clash-ssr.github.io/uploads/2025/05/2-20250508.yaml
+- https://free-clash-ssr.github.io/uploads/2025/05/3-20250508.yaml
+- https://free-clash-ssr.github.io/uploads/2025/05/4-20250508.yaml
 
 ### V2ray订阅链接
 
-- https://free-clash-ssr.github.io/uploads/2025/05/0-20250504.txt
-- https://free-clash-ssr.github.io/uploads/2025/05/1-20250504.txt
-- https://free-clash-ssr.github.io/uploads/2025/05/2-20250504.txt
-- https://free-clash-ssr.github.io/uploads/2025/05/3-20250504.txt
-- https://free-clash-ssr.github.io/uploads/2025/05/4-20250504.txt
+- https://free-clash-ssr.github.io/uploads/2025/05/0-20250508.txt
+- https://free-clash-ssr.github.io/uploads/2025/05/1-20250508.txt
+- https://free-clash-ssr.github.io/uploads/2025/05/2-20250508.txt
+- https://free-clash-ssr.github.io/uploads/2025/05/3-20250508.txt
+- https://free-clash-ssr.github.io/uploads/2025/05/4-20250508.txt
 
 ### Sing-box订阅链接
 
-- https://free-clash-ssr.github.io/uploads/2025/05/20250504.json
+- https://free-clash-ssr.github.io/uploads/2025/05/20250508.json
 
 ## 更多clash节点订阅 ：
 

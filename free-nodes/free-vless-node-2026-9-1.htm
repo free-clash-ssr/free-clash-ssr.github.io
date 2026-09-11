@@ -303,14 +303,9 @@ ClashMeta 百度云资源
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 是否可以手动管理多个节点？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 节点订阅失败如何处理？</h5></div>
     <div class="panel-body">
-        支持。用户可以手动输入节点参数或扫描二维码导入节点，并可进行修改或删除。虽然不支持订阅自动更新，但足够满足轻量用户对节点管理和分流的基本需求。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的策略组如何提升分流效率？</h5></div>
-    <div class="panel-body">
-        策略组可以将多个节点或规则组合在一起，实现按条件自动选择最佳节点。通过策略组，用户无需手动切换节点即可根据延迟、地理位置或流量类型自动分流，提高网络效率。<hr />    </div>
+        首先确认订阅 URL 是否有效，并确保网络连接正常。可手动刷新或重新添加订阅链接，保证节点列表最新。结合策略组使用，确保稳定科学上网体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VMess 连接延迟过高该如何优化？</h5></div>
@@ -318,14 +313,24 @@ ClashMeta 百度云资源
         可尝试切换传输协议（如 WS、gRPC）、调整 MTU 或启用 MUX 多路复用功能。同时检查服务器地理位置、带宽和延迟，并选择最优节点以降低延迟。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 是否可以手动管理多个节点？</h5></div>
+    <div class="panel-body">
+        支持。用户可以手动输入节点参数或扫描二维码导入节点，并可进行修改或删除。虽然不支持订阅自动更新，但足够满足轻量用户对节点管理和分流的基本需求。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan 伪装域名如何选择以提升隐蔽性？</h5></div>
+    <div class="panel-body">
+        伪装域名应选择真实可访问网站并配备有效证书，这样 Trojan 流量可模拟正常 HTTPS 请求，降低被封锁和检测的风险，提高节点长期可用性和访问稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 可以自定义路由规则吗？</h5></div>
     <div class="panel-body">
         支持。用户可通过界面或配置文件定义路由规则，按域名、IP 或端口匹配不同节点，实现流量分流。自定义规则增强了网络访问灵活性和安全性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 策略组如何提升在线视频体验？</h5></div>
+    <div class="panel-heading"><h5>Clash 的策略组如何提升分流效率？</h5></div>
     <div class="panel-body">
-        Surfboard 可通过策略组将视频流量分配到低延迟、高带宽节点，自动切换到最佳节点，减少缓冲和卡顿，提高在线视频播放的流畅性和整体网络体验。<hr />    </div>
+        策略组可以将多个节点或规则组合在一起，实现按条件自动选择最佳节点。通过策略组，用户无需手动切换节点即可根据延迟、地理位置或流量类型自动分流，提高网络效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 的测速功能如何优化节点选择？</h5></div>
@@ -333,24 +338,19 @@ ClashMeta 百度云资源
         Shadowrocket 可测量节点延迟和丢包率，并根据结果排序策略组节点。延迟低的节点会优先使用，保证网页浏览、视频和游戏的速度和稳定性，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 节点订阅失败如何处理？</h5></div>
-    <div class="panel-body">
-        首先确认订阅 URL 是否有效，并确保网络连接正常。可手动刷新或重新添加订阅链接，保证节点列表最新。结合策略组使用，确保稳定科学上网体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Trojan 的伪装域名为何重要？</h5></div>
     <div class="panel-body">
         伪装域名必须是真实可访问的网站，且证书有效。它用于伪装流量，使 Trojan 的数据在外观上完全像正常 HTTPS 请求，从而有效降低被封锁和 DPI 检测的风险。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 多路复用如何优化高频短连接？</h5></div>
+    <div class="panel-heading"><h5>Surfboard 策略组如何提升在线视频体验？</h5></div>
     <div class="panel-body">
-        多路复用允许多个短连接共享同一通道，减少握手次数和加密开销。适合游戏和即时通讯等高频短连接场景，提高吞吐量和连接稳定性，保证流量快速传输。<hr />    </div>
+        Surfboard 可通过策略组将视频流量分配到低延迟、高带宽节点，自动切换到最佳节点，减少缓冲和卡顿，提高在线视频播放的流畅性和整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan 伪装域名如何选择以提升隐蔽性？</h5></div>
+    <div class="panel-heading"><h5>Hysteria2 多路复用如何优化高频短连接？</h5></div>
     <div class="panel-body">
-        伪装域名应选择真实可访问网站并配备有效证书，这样 Trojan 流量可模拟正常 HTTPS 请求，降低被封锁和检测的风险，提高节点长期可用性和访问稳定性。    </div>
+        多路复用允许多个短连接共享同一通道，减少握手次数和加密开销。适合游戏和即时通讯等高频短连接场景，提高吞吐量和连接稳定性，保证流量快速传输。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -398,16 +398,16 @@ ClashMeta 百度云资源
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/free-vless-node-2026-9-1.htm" title="Free Clash SSR - 9月1日22M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Singbox节点/Clash节点订阅节点分享">Free Clash SSR - 9月1日22M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Singbox节点/Clash节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-node-2026-8-7.htm" title="Free Clash SSR - 8月7日18.9M/S|免费Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Clash节点/Singbox节点订阅节点分享">Free Clash SSR - 8月7日18.9M/S|免费Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Clash节点/Singbox节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-12-free-subscribe-node.htm" title="Free Clash SSR - 8月12日18.1M/S|免费Singbox节点/Trojan节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点订阅节点分享">Free Clash SSR - 8月12日18.1M/S|免费Singbox节点/Trojan节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-vless-node-2026-8-29.htm" title="Free Clash SSR - 8月29日21M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Trojan节点/Singbox节点订阅节点分享">Free Clash SSR - 8月29日21M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Trojan节点/Singbox节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-8-21.htm" title="Free Clash SSR - 8月21日18.8M/S|免费Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点分享">Free Clash SSR - 8月21日18.8M/S|免费Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-16-free-node-subscribe.htm" title="Free Clash SSR - 8月16日18.1M/S|免费Trojan节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点订阅节点分享">Free Clash SSR - 8月16日18.1M/S|免费Trojan节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-6-vless-node-github.htm" title="Free Clash SSR - 8月6日19.5M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Trojan节点订阅节点分享">Free Clash SSR - 8月6日19.5M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点/Trojan节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-8-11.htm" title="Free Clash SSR - 8月11日20.1M/S|免费SSR节点/V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/Trojan节点订阅节点分享">Free Clash SSR - 8月11日20.1M/S|免费SSR节点/V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/Trojan节点订阅节点分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-26-free-node-subscribe.htm" title="Free Clash SSR - 8月26日18M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点订阅节点分享">Free Clash SSR - 8月26日18M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-github-2026-8-23.htm" title="Free Clash SSR - 8月23日18.1M/S|免费Trojan节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点订阅节点分享">Free Clash SSR - 8月23日18.1M/S|免费Trojan节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-30-vless-node-share.htm" title="Free Clash SSR - 8月30日19.9M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点订阅节点分享">Free Clash SSR - 8月30日19.9M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Clash节点/Singbox节点/Trojan节点订阅节点分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/vless-node-2026-8-3.htm" title="Free Clash SSR - 8月3日20.2M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点订阅节点分享">Free Clash SSR - 8月3日20.2M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-8-21.htm" title="Free Clash SSR - 8月21日18.8M/S|免费Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点分享">Free Clash SSR - 8月21日18.8M/S|免费Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-vless-node-2026-9-1.htm" title="Free Clash SSR - 9月1日22M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Singbox节点/Clash节点订阅节点分享">Free Clash SSR - 9月1日22M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Singbox节点/Clash节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-8-27.htm" title="Free Clash SSR - 8月27日21.3M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点订阅节点分享">Free Clash SSR - 8月27日21.3M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Clash节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/today-vless-node-2026-8-13.htm" title="Free Clash SSR - 8月13日19.2M/S|免费V2ray节点/Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/Clash节点订阅节点分享">Free Clash SSR - 8月13日19.2M/S|免费V2ray节点/Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/Clash节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-2-vless-node-github.htm" title="Free Clash SSR - 9月2日20.7M/S|免费Clash节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点订阅节点分享">Free Clash SSR - 9月2日20.7M/S|免费Clash节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/V2ray节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-8-31.htm" title="Free Clash SSR - 8月31日23M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点/Clash节点订阅节点分享">Free Clash SSR - 8月31日23M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点/Clash节点订阅节点分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-18-latest-vless-node.htm" title="Free Clash SSR - 8月18日19.3M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点订阅节点分享">Free Clash SSR - 8月18日19.3M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点订阅节点分享</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -422,7 +422,7 @@ ClashMeta 百度云资源
                 <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                     </ul>
     </div>
